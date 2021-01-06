@@ -9,7 +9,7 @@ body{
     list-style: none;
     text-decoration: none;
   }
-  .title{
+  .mainTitle{
     margin: 2.5em auto;
     font-family: 'Press Start 2P';
     font-size: 2.5em;
@@ -21,20 +21,7 @@ body{
 
 
   }
-    .slick-it div{
-      width: 100%;
-    }
-    .slick-it img{
-      width: 100%;
 
-    }
-    .slick-prev{
-      left: 80px;
-      z-index: 1;
-    }
-  .slick-prev:before, .slick-next:before{
-      font-size: 50px;
-    }
 
     .player{
       height: 400px;
@@ -61,19 +48,7 @@ body{
       border-bottom: 1px solid #555;
       background-image: linear-gradient(#6b3636,#6c6cff);
     }
-  /*  .music-header .fa-angle-left{
-      float: left;
-      margin-top: 15px;
-      margin-left: 10px;
-      cursor: pointer;
-    }
-    .music-header .fa-search{
-      float: right;
-      margin-top: 15px;
-      margin-right: 10px;
-      cursor: pointer;
-    }
-    */
+
     .music-header .title{
       font-family: 'Roboto', sans-serif;
       width: 250px;
